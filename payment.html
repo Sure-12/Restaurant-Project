@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Payment getway form design in Hindi</title>
+	<link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body>
+<header>
+    <form action="">
+	    <div class="container">
+		    <div class="left">
+			    <h3>BILLING ADDRESS</h3>
+			    <form action="">
+                  <div>
+                    <label for="name"> Name</label>
+				    <input required type="text" id="name" name="name" placeholder="Enter name">
+                  </div>
+				
+				    <div>
+                        <label for="email"> Email</label>
+				        <input required type="email" id="email" name="email" placeholder="Enter email">
+                    </div>
+				    <div>
+                        <label for="address">Address</label>
+				        <input required type="text" id="address" name="address">
+                    </div>
+				
+				    <div>
+                        <label for="cityname">City</label>
+				        <input required type="text" id="cityname" name="cityname" placeholder="Enter name">
+                    </div>
+				    <div id="zip">
+					    <label for="state">
+						
+						    <select required for="state" name="state">
+							    <option>Choose State..</option>
+							    <option>Rajasthan</option>
+							    <option>Gujarat</option>
+							    <option>Uttar Pradesh</option>
+							    <option>Madhya Pradesh</option>
+						    </select>
+					    </label>
+                    
+                        <div>
+                            <label for="code">Zip code</label>
+                            <input required type="number" id="code" name="code" placeholder="Zip code">
+                        </div>
+				    </div>
+			   
+		            
+		            <div class="right">
+			     <h3>PAYMENT</h3>
+			   
+				    Accepted Card <br>
+				    <img src="visapayment.jfif" width="100">
+				    <img src="creditpayment.jfif" width="50">
+				    <br><br>
+
+				    <label for="num"   >Credit card number</label>
+			        <input required type="text" id="num" name="num" placeholder="Enter card number">
+				
+				    <label for="exp">Exp month</label>  
+				    <input required type="text" id="exp"  name="exp" placeholder="Enter Month">
+				    <div id="zip">
+					    <label for="year">
+						    Exp year
+						    <select required id="year" name="year">
+							    <option>Choose Year..</option>
+							    <option>2022</option>
+							    <option>2023</option>
+							    <option>2024</option>
+							    <option>2025</option>
+							    <option>2026</option>
+						    </select>
+					    </label>
+						    <label for="cvv">CVV</label>
+					        <input required type="number" id="cvv" name="cvv" placeholder="CVV">
+					
+				    </div>
+			
+                 <div class="button_container">
+                        <button type="submit"> Pay Now</button>
+                        
+                    </div>
+                    <div><a class="index-link" href="index.html">Back to Home</a></div>
+                </form>
+		    </div>
+	    </div>
+    </form>
+	
+</header>
+</body>
+</html>
+
+
